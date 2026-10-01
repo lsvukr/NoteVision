@@ -31,11 +31,11 @@ Branch: `feature/note-mapping`
 
 **Done when:** tests pass; the MAUI app references `NoteVision.Core`.
 
-### Step 2 — YIN pitch detection
+### Step 2 — YIN pitch detection ✅
 Branch: `feature/pitch-detection`
-- [ ] `IPitchDetector` interface and `YinPitchDetector` implementation.
-- [ ] Range ~60 Hz – 1.2 kHz; returns frequency + confidence, or "no pitch" for silence/noise.
-- [ ] Tests with generated sine and harmonic-rich waves at several frequencies; silence returns no pitch.
+- [x] `IPitchDetector` interface and `YinPitchDetector` implementation.
+- [x] Range ~60 Hz – 1.2 kHz; returns frequency + confidence, or "no pitch" for silence/noise.
+- [x] Tests with generated sine and harmonic-rich waves at several frequencies; silence returns no pitch.
 
 **Done when:** detected frequency is within ±5 cents of the generated tone in tests.
 
