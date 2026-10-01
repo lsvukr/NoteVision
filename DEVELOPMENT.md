@@ -21,13 +21,13 @@ Mark a step `[x]` when its PR is merged.
 - [x] `RECORD_AUDIO` permission in the Android manifest
 - [x] Git repository, GitHub `lsvukr/NoteVision`, `main` protected, squash-only merges
 
-### Step 1 — Core library and note mapping
+### Step 1 — Core library and note mapping ✅
 Branch: `feature/note-mapping`
-- [ ] Add class library `NoteVision.Core` (plain .NET, no MAUI) for all music/audio logic.
-- [ ] Add test project `NoteVision.Core.Tests` (xUnit).
-- [ ] `Note` model: MIDI number, name (C, C♯, D…), octave, cents deviation.
-- [ ] Frequency → note: `n = 12 · log2(f / 440) + 69`.
-- [ ] Tests: 440 Hz → A4, 261.63 Hz → C4, 82.41 Hz → E2, cents for off-pitch input.
+- [x] Add class library `NoteVision.Core` (plain .NET, no MAUI) for all music/audio logic.
+- [x] Add test project `NoteVision.Core.Tests` (xUnit).
+- [x] `Note` model: MIDI number, name (C, C♯, D…), octave, cents deviation.
+- [x] Frequency → note: `n = 12 · log2(f / 440) + 69`.
+- [x] Tests: 440 Hz → A4, 261.63 Hz → C4, 82.41 Hz → E2, cents for off-pitch input.
 
 **Done when:** tests pass; the MAUI app references `NoteVision.Core`.
 

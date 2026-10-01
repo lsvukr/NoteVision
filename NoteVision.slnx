@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="NoteVision.Core.Tests/NoteVision.Core.Tests.csproj" />
+  <Project Path="NoteVision.Core/NoteVision.Core.csproj" />
   <Project Path="NoteVision/NoteVision.csproj" />
 </Solution>
